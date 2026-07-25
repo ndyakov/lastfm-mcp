@@ -1,0 +1,20 @@
+services:
+  lastfm-mcp:
+    build: .
+    environment:
+      LASTFM_API_KEY: ${LASTFM_API_KEY:?set LASTFM_API_KEY}
+      LASTFM_API_SECRET: ${LASTFM_API_SECRET:-}
+      LASTFM_SESSION_KEY: ${LASTFM_SESSION_KEY:-}
+      LASTFM_MCP_TRANSPORT: http
+      LASTFM_MCP_HTTP_ADDR: 0.0.0.0:8080
+      LASTFM_MCP_HTTP_TOKEN: ${LASTFM_MCP_HTTP_TOKEN:?set LASTFM_MCP_HTTP_TOKEN}
+      LASTFM_ENABLE_WRITES: ${LASTFM_ENABLE_WRITES:-false}
+      LASTFM_ENABLE_AUTH_TOOLS: ${LASTFM_ENABLE_AUTH_TOOLS:-false}
+      LASTFM_ENABLE_EXPERIMENTAL: ${LASTFM_ENABLE_EXPERIMENTAL:-false}
+    ports:
+      - "127.0.0.1:8080:8080"
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
