@@ -1,0 +1,38 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.ndyakov/lastfm-mcp",
+  "title": "Last.fm",
+  "description": "Last.fm MCP server: scrobbles, charts, artist/album/track info and more",
+  "repository": {
+    "url": "https://github.com/ndyakov/lastfm-mcp",
+    "source": "github"
+  },
+  "version": "0.0.0",
+  "packages": [
+    {
+      "registryType": "oci",
+      "identifier": "ghcr.io/ndyakov/lastfm-mcp:0.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "LASTFM_API_KEY",
+          "description": "Last.fm API key (https://www.last.fm/api/account/create)",
+          "isRequired": true,
+          "isSecret": true
+        },
+        {
+          "name": "LASTFM_API_SECRET",
+          "description": "Last.fm API secret; only needed for authenticated/write methods",
+          "isSecret": true
+        },
+        {
+          "name": "LASTFM_ENABLE_WRITES",
+          "description": "Set to 1 to enable scrobbling/write tools",
+          "default": ""
+        }
+      ]
+    }
+  ]
+}
