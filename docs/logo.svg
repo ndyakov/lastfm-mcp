@@ -1,0 +1,48 @@
+<svg width="400" height="196" viewBox="0 0 400 196" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="lastfm-mcp — Last.fm MCP server for AI agents">
+  <!-- official Last.fm mark: the interlocked "as" on the red disc -->
+  <g>
+    <circle cx="110" cy="59" r="24.5" fill="#D51007"/>
+    <path transform="translate(84.64,42.87) scale(0.147)" fill="#FFFFFF" d="m158.431 165.498-8.354-22.708s-13.575 15.14-33.932 15.14c-18.013 0-30.802-15.662-30.802-40.721 0-32.106 16.182-43.591 32.107-43.591 22.969 0 30.277 14.878 36.543 33.934l8.354 26.103c8.351 25.318 24.013 45.678 69.17 45.678 32.37 0 54.295-9.918 54.295-36.02 0-21.143-12.009-32.107-34.458-37.328l-16.705-3.654c-11.484-2.61-14.877-7.309-14.877-15.14 0-8.875 7.046-14.096 18.533-14.096 12.529 0 19.315 4.699 20.36 15.923l26.102-3.133c-2.088-23.492-18.271-33.15-44.896-33.15-23.491 0-46.462 8.875-46.462 37.327 0 17.75 8.614 28.975 30.277 34.195l17.752 4.175c13.312 3.133 17.748 8.614 17.748 16.185 0 9.656-9.396 13.572-27.146 13.572-26.364 0-37.325-13.834-43.591-32.89l-8.614-26.101c-10.961-33.934-28.452-46.463-63.169-46.463-38.37 0-58.731 24.275-58.731 65.517 0 39.677 20.361 61.08 56.906 61.08 29.492 0 43.59-13.834 43.59-13.834z"/>
+  </g>
+
+  <!-- the scrobble stream -->
+  <g stroke="#D51007" stroke-width="3" stroke-linecap="round">
+    <path d="M144,57.5 V64.5"/>
+    <path d="M150.5,53 V69"/>
+    <path d="M157,56 V66"/>
+    <path d="M163.5,50 V72"/>
+    <path d="M170,54.5 V67.5"/>
+    <path d="M176.5,49 V73"/>
+    <path d="M183,57 V65"/>
+    <path d="M189.5,52 V70"/>
+    <path d="M196,55.5 V66.5"/>
+    <path d="M202.5,51 V71"/>
+    <path d="M209,58 V64"/>
+    <path d="M215.5,53.5 V68.5"/>
+    <path d="M222,56.5 V65.5"/>
+    <path d="M228.5,51.5 V70.5"/>
+    <path d="M235,55 V67"/>
+    <path d="M241.5,53 V69"/>
+    <path d="M248,57 V65"/>
+    <path d="M254.5,58.5 V63.5"/>
+  </g>
+
+  <!-- the official MCP mark -->
+  <g transform="translate(258.96,27) scale(0.32)" fill="none">
+    <path d="M25 97.8528L92.8823 29.9706C102.255 20.598 117.451 20.598 126.823 29.9706V29.9706C136.196 39.3431 136.196 54.5391 126.823 63.9117L75.5581 115.177" stroke="black" stroke-width="12" stroke-linecap="round"/>
+    <path d="M76.2653 114.47L126.823 63.9117C136.196 54.5391 151.392 54.5391 160.765 63.9117L161.118 64.2652C170.491 73.6378 170.491 88.8338 161.118 98.2063L99.7248 159.6C96.6006 162.724 96.6006 167.789 99.7248 170.913L112.331 183.52" stroke="black" stroke-width="12" stroke-linecap="round"/>
+    <path d="M109.853 46.9411L59.6482 97.1457C50.2757 106.518 50.2757 121.714 59.6482 131.087V131.087C69.0208 140.459 84.2168 140.459 93.5894 131.087L143.794 80.8822" stroke="black" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <!-- wordmark: lastfm in Last.fm red, -mcp in MCP black -->
+  <text x="68" y="134" font-family="ui-monospace,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace"
+        font-size="44" font-weight="700" fill="#D51007"
+        textLength="158" lengthAdjust="spacingAndGlyphs">lastfm</text>
+  <text x="226" y="134" font-family="ui-monospace,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace"
+        font-size="44" font-weight="700" fill="#000000"
+        textLength="106" lengthAdjust="spacingAndGlyphs">-mcp</text>
+
+  <text x="200" y="168" text-anchor="middle"
+        font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif"
+        font-size="15" fill="#7d8590">Last.fm MCP server, powered by go-lastfm</text>
+</svg>

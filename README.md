@@ -1,3 +1,10 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/logo-dark.svg">
+    <img src="docs/logo.svg" alt="lastfm-mcp — Last.fm MCP server" width="360">
+  </picture>
+</p>
+
 # lastfm-mcp
 
 An MCP server for the Last.fm API, built on [`go-lastfm/v2`](https://github.com/ndyakov/go-lastfm) and the [official Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk).
@@ -130,3 +137,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md), and [ROADMAP
 ## License
 
 [MIT](LICENSE)
+
