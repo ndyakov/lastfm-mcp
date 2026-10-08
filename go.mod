@@ -4,7 +4,7 @@ go 1.25.0
 
 require (
 	github.com/modelcontextprotocol/go-sdk v1.8.0
-	github.com/ndyakov/go-lastfm/v2 v2.0.0
+	github.com/ndyakov/go-lastfm/v2 v2.0.1
 )
 
 require (
